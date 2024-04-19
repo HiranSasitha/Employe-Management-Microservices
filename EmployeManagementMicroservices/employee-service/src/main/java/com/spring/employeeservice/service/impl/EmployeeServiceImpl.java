@@ -5,6 +5,7 @@ import com.spring.employeeservice.dto.DepartmentDto;
 import com.spring.employeeservice.dto.EmployeeDto;
 import com.spring.employeeservice.entity.Employee;
 import com.spring.employeeservice.repository.EmployeeRepository;
+import com.spring.employeeservice.service.APIClient;
 import com.spring.employeeservice.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -18,6 +19,9 @@ public class EmployeeServiceImpl implements EmployeeService {
     private EmployeeRepository employeeRepository;
 //    @Autowired
 //    private RestTemplate restTemplate;
+
+    @Autowired
+    private APIClient apiClient;
 
 //    @Autowired
 //    private WebClient webClient;
@@ -69,7 +73,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 //===========================================================================================
 
         // communicate with spring cloud open feign
-
+DepartmentDto departmentDto = apiClient.getDepartmentById(employee.getDepartmentCode());
 
         EmployeeDto dto = new EmployeeDto(
                 employee.getId(),
