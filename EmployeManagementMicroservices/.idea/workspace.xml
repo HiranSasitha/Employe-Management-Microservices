@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5561a52b-0008-4e2a-8b3e-9ffe3b508d02" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/spring/employeeservice/EmployeeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/spring/employeeservice/EmployeeServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/spring/employeeservice/dto/ApiResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/spring/employeeservice/dto/ApiResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/spring/employeeservice/dto/EmployeeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/spring/employeeservice/dto/EmployeeDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/spring/employeeservice/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/spring/employeeservice/entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/spring/employeeservice/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/spring/employeeservice/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/resources/application.properties" afterDir="false" />
+      <!-- Resolve the conflict here -->
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
