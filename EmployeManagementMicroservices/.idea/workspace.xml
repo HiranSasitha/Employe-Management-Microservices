@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5561a52b-0008-4e2a-8b3e-9ffe3b508d02" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/department-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/department-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employee-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/spring/employeeservice/service/APIClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/spring/employeeservice/service/APIClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/spring/employeeservice/EmployeeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/spring/employeeservice/EmployeeServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/spring/employeeservice/dto/ApiResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/spring/employeeservice/dto/ApiResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/spring/employeeservice/dto/EmployeeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/spring/employeeservice/dto/EmployeeDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/spring/employeeservice/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/spring/employeeservice/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/spring/employeeservice/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/spring/employeeservice/service/impl/EmployeeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employee-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,10 +64,11 @@
     "Spring Boot.ConfigServerApplication.executor": "Run",
     "Spring Boot.DepartmentServiceApplication.executor": "Run",
     "Spring Boot.EmployeeServiceApplication.executor": "Run",
+    "Spring Boot.OrganizationServiceApplication.executor": "Run",
     "Spring Boot.ServiceRegistryApplication.executor": "Run",
     "git-widget-placeholder": "feature/spring-cloud-bus",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "G:/microservicess/EmployeManagementMicroservices",
+    "last_opened_file_path": "G:/microservicess/EmployeManagementMicroservices/organization-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,7 +78,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "spring",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -95,7 +99,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DepartmentServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.apigateway.ApiGatewayApplication" />
@@ -120,6 +124,13 @@
     <configuration name="EmployeeServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="employee-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.employeeservice.EmployeeServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrganizationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="organization-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.organizationservice.OrganizationServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,7 +165,7 @@
       <workItem from="1713525426054" duration="16276000" />
       <workItem from="1713623435524" duration="2323000" />
       <workItem from="1713678312295" duration="4274000" />
-      <workItem from="1713683759303" duration="6048000" />
+      <workItem from="1713683759303" duration="23675000" />
     </task>
     <servers />
   </component>
@@ -177,7 +188,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/employee-service/src/main/java/com/spring/employeeservice/service/impl/EmployeeServiceImpl.java</url>
-          <line>60</line>
+          <line>72</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
